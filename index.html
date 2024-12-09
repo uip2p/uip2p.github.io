@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="UIP2P: Unsupervised Instruction-based Image Editing via Edit Reversibility Constraint">
+  <meta property="og:title" content="UIP2P: Unsupervised Instruction-based Image Editing via Edit Reversibility Constraint"/>
+  <meta property="og:description" content="We propose an unsupervised instruction-based image editing approach that removes the need for ground-truth edited images during training, introducing Edit Reversibility Constraint (ERC) which applies forward and reverse edits in one training step."/>
+  <meta property="og:url" content="https://enis.dev/uip2p"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/images/teaser.jpg" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Multi-concept image generation, LoRA, contrastive objective, lora composition, personalized image synthesis">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://www.w3counter.com/tracker.js?id=154654"></script>
+
+  <title>UIP2P: Unsupervised Instruction-based Image Editing via Edit Reversibility Constraint</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔄</text></svg>">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h3 class="title is-4">In ICCV 2025</h3>
+            <h1 class="title is-1 publication-title">UIP2P: Unsupervised Instruction-based Image Editing via Edit Reversibility Constraint</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://enis.dev/" target="_blank">Enis Simsar</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <span class="author-block">
+                    <a href="https://alessiotonioni.github.io/">Alessio Tonioni</a><sup>3</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://xianyongqin.github.io/">Yongqin Xian</a><sup>3</sup>,
+                  </span>
+                <span class="author-block">
+                  <a href="https://da.inf.ethz.ch/" target="_blank">Thomas Hofmann</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://federicotombari.github.io/" target="_blank">Federico Tombari</a><sup>2,3</sup></span>
+
+                </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>ETH Zürich,</span>
+                    <span class="author-block"><sup>2</sup>TU Munich,</span>
+                    <span class="author-block"><sup>3</sup>Google</span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <!-- ArXiv abstract Link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2412.15216" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                      </a>
+                    </span>
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2412.15216.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <!-- <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="box has-shadow">
+        <img src="static/images/teaser.jpg" alt="UIP2P teaser"/>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        <strong><u>U</u>nsupervised <u>I</u>nstruct<u>P</u>ix<u>2</u><u>P</u>ix.</strong> Our approach applies more precise and coherent edits while better preserving scene structure. UIP2P surpasses the supervised alternative, IP2P, trained on a synthetic dataset, demonstrating superior performance on both real (a, b) and synthetic (c, d) images.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose an unsupervised instruction-based image editing approach that removes the need for ground-truth edited images during training. Existing methods rely on supervised learning with triplets of input images, ground-truth edited images, and edit instructions. These triplets are typically generated either by existing editing methods—introducing biases—or through human annotations, which are costly and limit generalization. Our approach addresses these challenges by introducing a novel editing mechanism called Edit Reversibility Constraint (ERC), which applies forward and reverse edits in one training step and enforces alignment in image, text, and attention spaces. This allows us to bypass the need for ground-truth edited images and unlock training for the first time on datasets comprising either real image-caption pairs or image-caption-instruction triplets. We empirically show that our approach performs better across a broader range of edits with high-fidelity and precision. By eliminating the need for pre-existing datasets of triplets, reducing biases associated with current methods, and proposing ERC, our work represents a significant advancement in unblocking scaling of instruction-based image editing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Dataset Issues -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <h2 class="title">Dataset Issues</h2>
+        <figure class="image">
+          <div class="box has-shadow">
+            <img src="static/images/dataset_issues.jpg" alt="Dataset Issues">
+          </div>
+        </figure>
+        <p class="has-text-justified"><strong>Supervision Biases in InstructPix2Pix and HQ-Edit datasets.</strong> Each example shows an input image and its corresponding ground-truth edited image for the given edit instruction. InstructPix2Pix employs Prompt-to-Prompt, while HQ-Edit uses DALL-E 3 and GPT-4V. <em>(a & d) Attribute-entangled edits:</em> Modifying a specific feature, such as clothing or hair color, unintentionally alters surrounding textures or elements. <em>(b & e) Scene-entangled edits:</em> Transforming objects, like turning a cottage into a castle or removing an element, affects unintended parts of the scene. <em>(c & f) Global changes:</em> Edits like converting an image to black and white or changing the time of day introduce widespread scene modifications, often compromising visual preservation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Dataset Issues -->
+
+<!-- Method Overview -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <h2 class="title">Method Overview</h2>
+        <figure class="image">
+          <div class="box has-shadow">
+            <img src="static/images/framework.jpg" alt="uip2p Framework">
+          </div>
+        </figure>
+        <p><strong>Overview of the UIP2P training framework.</strong> The model learns instruction-based image editing by applying forward and reverse instructions. Starting with an input image and a forward instruction, shared Edit Model generates an edited image. A reverse instruction is then applied to reconstruct the original image, enforcing Edit Reversibility Constraint (ERC).</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Method Overview -->
+
+
+<!-- Qualitative Results -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title has-text-centered">Qualitative Results</h2>
+      
+      <!-- Responsive Grid Layout -->
+      <div class="columns is-multiline is-centered">
+        <div class="column is-12-mobile is-6-tablet is-6-desktop">
+          <div class="box has-shadow">
+            <img src="static/images/qual1.jpg" alt="Qualitative Results 1"/>
+          </div>
+        </div>
+        <div class="column is-12-mobile is-6-tablet is-6-desktop">
+          <div class="box has-shadow">
+            <img src="static/images/qual2.jpg" alt="Qualitative Results 2"/>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content has-text-centered">
+        <p>
+          <strong>Qualitative Examples.</strong> UIP2P performance is shown across various tasks and datasets, compared to InstructPix2Pix, MagicBrush, HIVE, MGIE, and SmartEdit. Our method demonstrates either comparable or superior results in terms of accurately applying the requested edits while preserving visual consistency. Red circles and arrows indicate drastic problems during the image editing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Qualitative Results -->
+
+
+
+
+<!-- Ethics Statement abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Ethics Statement</h2>
+        <div class="content has-text-justified">
+          <p>
+            Advancements in localized image editing technology offer substantial opportunities to enhance creative expression and improve accessibility within digital media and virtual reality environments. Nonetheless, these developments also bring forth important ethical challenges, particularly concerning the misuse of such technology to create misleading content, such as deepfakes (Korshunov and Marcel, 2018), and its potential effect on employment in the image editing industry. Moreover, as also highlighted by Kenthapadi et al. (2023), it requires a thorough and careful discussion about their ethical use to avoid possible misuse. We believe that our method could help reduce some of the biases present in previous datasets, though it will still be affected by biases inherent in models such as CLIP. Ethical frameworks should prioritize encouraging responsible usage, developing clear guidelines to prevent misuse, and promoting fairness and transparency, particularly in sensitive contexts like journalism. Effectively addressing these concerns is crucial to amplifying the positive benefits of the technology while minimizing associated risks. In addition, our user study follows strict anonymity rules to protect the privacy of participants.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Ethics Statement abstract -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{simsar2024uip2p,
+    title={UIP2P: Unsupervised Instruction-based Image Editing via Edit Reversibility Constraint}, 
+    author={Enis Simsar and Alessio Tonioni and Yongqin Xian and Thomas Hofmann and Federico Tombari},
+    year={2024},
+    eprint={2412.15216},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
